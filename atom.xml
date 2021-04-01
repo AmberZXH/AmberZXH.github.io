@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  <subtitle>想要一只布偶</subtitle>
+  <link href="https://amberzxh.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://amberzxh.github.io/"/>
+  <updated>2021-04-01T03:07:42.601Z</updated>
+  <id>https://amberzxh.github.io/</id>
+  
+  <author>
+    <name>张忘川</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>my first blog</title>
+    <link href="https://amberzxh.github.io/2021/04/01/my-first-blog-2/"/>
+    <id>https://amberzxh.github.io/2021/04/01/my-first-blog-2/</id>
+    <published>2021-04-01T03:07:42.000Z</published>
+    <updated>2021-04-01T03:07:42.601Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>my first blog</title>
+    <link href="https://amberzxh.github.io/2021/04/01/my-first-blog-1/"/>
+    <id>https://amberzxh.github.io/2021/04/01/my-first-blog-1/</id>
+    <published>2021-04-01T03:02:30.000Z</published>
+    <updated>2021-04-01T03:02:30.185Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>my first blog</title>
+    <link href="https://amberzxh.github.io/2021/04/01/my-first-blog/"/>
+    <id>https://amberzxh.github.io/2021/04/01/my-first-blog/</id>
+    <published>2021-04-01T02:57:45.000Z</published>
+    <updated>2021-04-01T02:57:45.583Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://amberzxh.github.io/2021/04/01/hello-world/"/>
+    <id>https://amberzxh.github.io/2021/04/01/hello-world/</id>
+    <published>2021-04-01T01:55:33.530Z</published>
+    <updated>2021-04-01T01:55:33.530Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a target=&quot;_blank&quot; rel=&quot;noopener&quot; href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a target=&quot;_blank&quot; rel</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="https://amberzxh.github.io/2021/01/13/bei-zhu/"/>
+    <id>https://amberzxh.github.io/2021/01/13/bei-zhu/</id>
+    <published>2021-01-13T13:30:08.317Z</published>
+    <updated>2021-03-25T02:23:58.811Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;1-jar包和war包的介绍和区别&quot;&gt;&lt;a href=&quot;#1-jar包和war包的介绍和区别&quot; class=&quot;headerlink&quot; title=&quot;1. jar包和war包的介绍和区别&quot;&gt;&lt;/a&gt;1. jar包和war包的介绍和区别&lt;/h1&gt;&lt;p&gt;[TOC]&lt;/p</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
