@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>hexo的基本使用</title>
+      <link href="/AmberZXH.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/"/>
+      <url>/AmberZXH.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/</url>
+      
+        <content type="html"><![CDATA[<h1 id="建立文章"><a href="#建立文章" class="headerlink" title="建立文章"></a>建立文章</h1><pre class=" language-java"><code class="language-java">新建文章hexo <span class="token keyword">new</span> <span class="token string">"文章文字"</span><span class="token punctuation">(</span>简写 hexo n<span class="token punctuation">)</span>新建页面hexo <span class="token keyword">new</span> <span class="token class-name">page</span> <span class="token string">"页面名字"</span></code></pre><h1 id="部署命令"><a href="#部署命令" class="headerlink" title="部署命令"></a>部署命令</h1><pre class=" language-java"><code class="language-java">清空缓存 hexo clean 生成静态页面至<span class="token keyword">public</span>目录 hexo <span class="token function">generate</span> <span class="token punctuation">(</span>简写 hexo g<span class="token punctuation">)</span>项目部署hexo <span class="token function">deploy</span> <span class="token punctuation">(</span>简写 hexo d<span class="token punctuation">)</span></code></pre><p>以上是部署必须要的步骤</p><h1 id="本地运行"><a href="#本地运行" class="headerlink" title="本地运行"></a>本地运行</h1><pre class=" language-java"><code class="language-java">开启预览访问端口（默认端口<span class="token number">4000</span>，ctrl<span class="token operator">+</span>c 关闭server）hexo <span class="token function">server</span> <span class="token punctuation">(</span>简写 hexo s<span class="token punctuation">)</span></code></pre><h1 id="git提交"><a href="#git提交" class="headerlink" title="git提交"></a>git提交</h1><pre class=" language-java"><code class="language-java">git checkout master # 切换到master分支git add <span class="token punctuation">.</span> #我不知道啥意思git commit <span class="token operator">-</span>am<span class="token string">"${提交的信息}"</span> #照着写就行啦git push # 提交</code></pre><h1 id="遇到的一些问题"><a href="#遇到的一些问题" class="headerlink" title="遇到的一些问题"></a>遇到的一些问题</h1><p>使用 <code>hexo-prism-plugin</code>的时候，需要依赖<code>hexo-inject</code></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>回溯算法_全排列</title>
       <link href="/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/"/>
       <url>/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/</url>

@@ -3,11 +3,11 @@
   <title>Hexo</title>
   
   <subtitle>想要一只布偶</subtitle>
-  <link href="https://amberzxh.github.io/AmberZXH.github.io/atom.xml" rel="self"/>
+  <link href="https://amberzxh.github.io/atom.xml" rel="self"/>
   
-  <link href="https://amberzxh.github.io/AmberZXH.github.io/"/>
-  <updated>2021-04-01T14:11:14.191Z</updated>
-  <id>https://amberzxh.github.io/AmberZXH.github.io/</id>
+  <link href="https://amberzxh.github.io/"/>
+  <updated>2021-04-01T16:13:49.086Z</updated>
+  <id>https://amberzxh.github.io/</id>
   
   <author>
     <name>张忘川</name>
@@ -17,9 +17,30 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>hexo的基本使用</title>
+    <link href="https://amberzxh.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/"/>
+    <id>https://amberzxh.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/</id>
+    <published>2021-04-01T16:02:06.000Z</published>
+    <updated>2021-04-01T16:13:49.086Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;建立文章&quot;&gt;&lt;a href=&quot;#建立文章&quot; class=&quot;headerlink&quot; title=&quot;建立文章&quot;&gt;&lt;/a&gt;建立文章&lt;/h1&gt;&lt;pre class=&quot; language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;新建文章
+hexo</summary>
+      
+    
+    
+    
+    
+    <category term="hexo" scheme="https://amberzxh.github.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>回溯算法_全排列</title>
-    <link href="https://amberzxh.github.io/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/"/>
-    <id>https://amberzxh.github.io/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/</id>
+    <link href="https://amberzxh.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/"/>
+    <id>https://amberzxh.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/</id>
     <published>2021-04-01T13:10:14.000Z</published>
     <updated>2021-04-01T14:11:14.191Z</updated>
     
@@ -29,9 +50,9 @@
     
     
     
-    <category term="算法" scheme="https://amberzxh.github.io/AmberZXH.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    <category term="算法" scheme="https://amberzxh.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="leetcode" scheme="https://amberzxh.github.io/AmberZXH.github.io/tags/leetcode/"/>
+    <category term="leetcode" scheme="https://amberzxh.github.io/tags/leetcode/"/>
     
   </entry>
   
