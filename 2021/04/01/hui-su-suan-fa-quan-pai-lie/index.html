@@ -3,8 +3,8 @@
 
 
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="编程，音乐，电影，考研">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><meta charset="utf-8">
+    <meta name="keywords" content="回溯算法_全排列, 编程，音乐，电影，考研">
     <meta name="description" content="少年与爱永不老去，即便披荆斩棘，丢失怒马鲜衣">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hexo</title>
+    <title>回溯算法_全排列 | Hexo</title>
     <link rel="icon" type="image/png" href="/AmberZXH.github.io/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/AmberZXH.github.io/libs/awesome/css/all.css">
@@ -32,13 +32,23 @@
 <meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
 <link rel="alternate" href="/AmberZXH.github.io/atom.xml" title="Hexo" type="application/atom+xml">
-</head>
+<link rel="stylesheet" href="/AmberZXH.github.io/css/prism-tomorrow.css" type="text/css"><!-- hexo-inject:begin --><!-- hexo-inject:end --></head>
 
+
+
+   <style>
+    body{
+       background-image: url(https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg);
+       background-repeat:no-repeat;
+       background-size:cover;
+       background-attachment:fixed;
+    }
+</style>
 
 
 
 <body>
-    <header class="navbar-fixed">
+    <!-- hexo-inject:begin --><!-- hexo-inject:end --><header class="navbar-fixed">
     <nav id="headNav" class="bg-color nav-transparent">
         <div id="navContainer" class="nav-wrapper container">
             <div class="brand-logo">
@@ -313,12 +323,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/AmberZXH.github.io/medias/featureimages/0.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/AmberZXH.github.io/medias/featureimages/3.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title"></h1>
+                    <h1 class="description center-align post-title">回溯算法_全排列</h1>
                 </div>
             </div>
         </div>
@@ -432,9 +442,17 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/AmberZXH.github.io/tags/%E7%AE%97%E6%B3%95/">
+                                <span class="chip bg-color">算法</span>
+                            </a>
+                        
+                            <a href="/AmberZXH.github.io/tags/leetcode/">
+                                <span class="chip bg-color">leetcode</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
@@ -446,28 +464,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2021-01-13
+                    2021-04-01
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2021-03-25
+                    2021-04-01
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.7k
+                    72
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    13 分
+                    1 分
                 </div>
                 
 
@@ -487,463 +505,44 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h1 id="1-jar包和war包的介绍和区别"><a href="#1-jar包和war包的介绍和区别" class="headerlink" title="1. jar包和war包的介绍和区别"></a>1. jar包和war包的介绍和区别</h1><p>[TOC]</p>
-<p><strong>1.jar包的介绍</strong></p>
-<p>JAR（Java Archive，Java 归档文件）是与平台无关的文件格式，它允许将许多文件组合成一个压缩文件。<strong>JavaSE程序可以打包成Jar包</strong>(J其实可以理解为Java了)。</p>
-<p>JAR 文件格式以流行的 ZIP 文件格式为基础。与 ZIP 文件不同的是，JAR 文件不仅用于压缩和发布，而且还用于部署和封装<strong>库</strong>、<strong>组件</strong>和<strong>插件程序</strong>，并可被像编译器和 JVM 这样的工具直接使用。在 JAR 中包含特殊的文件，如 manifests 和部署描述符，用来示工具如何处理特定的 JAR。</p>
-<p>简单来说，jar包就是别人已经写好的一些类，然后对这些类进行打包。可以将这些jar包引入到你的项目中，可以直接使用这些jar包中的类和属性，这些jar包一般放在lib目录下。</p>
-<p><strong>2.war包的介绍</strong></p>
-<p>war是一个可以直接运行的web模块，通常用于网站，打成包部署到容器中。以Tomcat来说，将war包放置在其\webapps\目录下，然后启动Tomcat，这个包就会自动解压，就相当于发布了。</p>
-<h1 id="idea我还不知道的技巧"><a href="#idea我还不知道的技巧" class="headerlink" title="idea我还不知道的技巧"></a>idea我还不知道的技巧</h1><ul>
-<li>前段代码模版：Emmet</li>
-<li>.sout .for不是template 而是 Postfix Completion</li>
-</ul>
-<h1 id="Mevan-我放在了Library里"><a href="#Mevan-我放在了Library里" class="headerlink" title="Mevan 我放在了Library里"></a>Mevan 我放在了Library里</h1><h1 id="zshrc-和-bash-profile"><a href="#zshrc-和-bash-profile" class="headerlink" title=".zshrc 和.bash_profile"></a>.zshrc 和.bash_profile</h1><p>.bash_profile是环境配置文件</p>
-<p>.zshrc也是配置文件</p>
-<p>terminal可以在bash和zsh相互切换</p>
-<p>如果配置了.bash_profile配置过后不行，那就在.zshrc</p>
-<p>最后一行添加<code>source ~/.bash_profile</code></p>
-<h1 id="Springboot-Q1"><a href="#Springboot-Q1" class="headerlink" title="Springboot :Q1"></a>Springboot :Q1</h1><ul>
-<li><p>选择依赖的时候如果加了数据库的依赖，启动的时候要配置好数据库，不然需要添加exclude = {DataSourceAutoConfiguration.class}</p>
-<ul>
-<li><p>选择以来加了Spring security 没有配置的话需要加</p>
-</li>
-<li><pre><code>@SpringBootApplication(exclude = {DataSourceAutoConfiguration.class, SecurityAutoConfiguration.class})
-</code></pre>
-</li>
-</ul>
-</li>
-</ul>
-<p>上面两个都加了 z x h你看得懂的奥</p>
-<h1 id="Springboot-Q2"><a href="#Springboot-Q2" class="headerlink" title="Springboot :Q2"></a>Springboot :Q2</h1><ul>
-<li><strong>但是如果使用@RestController注解，视图解析器InternalResourceViewResolver会失效，无法解析html、jsp页面进而跳转到指定的页面，而是返回return的内容。</strong></li>
-</ul>
-<h1 id="File"><a href="#File" class="headerlink" title="File"></a>File</h1><p>判断一个文件是不是空</p>
-<pre><code class="java">File file =new File("xxxxxx");
-当一个文件夹为空 file==0
-当file是个文件 file==null
-</code></pre>
-<h1 id="自己的Maven地址"><a href="#自己的Maven地址" class="headerlink" title="自己的Maven地址"></a>自己的Maven地址</h1><ul>
-<li>/Library/apache-maven-3.6.3/conf/settings.xml</li>
-<li>/Library/apache-maven-3.6.3/repository</li>
-</ul>
-<h1 id="HomeBrew放在哪里了"><a href="#HomeBrew放在哪里了" class="headerlink" title="HomeBrew放在哪里了"></a>HomeBrew放在哪里了</h1><p>放在了/opt/homebrew</p>
-<h1 id="常用的FunctionalInterface"><a href="#常用的FunctionalInterface" class="headerlink" title="常用的FunctionalInterface"></a>常用的FunctionalInterface</h1><ul>
-<li><code>Interface Suppllier</code> </li>
-<li><code>Consumer</code><ul>
-<li><code>Predicate</code>  做判断</li>
-</ul>
-</li>
-<li><code>Function </code> 功能参数传递</li>
-</ul>
-<h1 id="两数相加模版"><a href="#两数相加模版" class="headerlink" title="两数相加模版"></a>两数相加模版</h1><pre><code>while ( A 没完 || B 没完))
- *     A 的当前位
- *     B 的当前位
- *
- *     和 = A 的当前位 + B 的当前位 + 进位carry
- *
- *     当前位 = 和 % 10;
- *     进位 = 和 / 10;
- *
- * 判断还有进位吗
-</code></pre>
-<h1 id="idea全局搜索"><a href="#idea全局搜索" class="headerlink" title="idea全局搜索"></a>idea全局搜索</h1><p>shifit+command+r</p>
-<h1 id="ClassPath"><a href="#ClassPath" class="headerlink" title="ClassPath"></a>ClassPath</h1><p><strong>lasspath 等价于 main/java + main/resources + 第三方jar包的根目录</strong>。</p>
-<h1 id="读数字字符串的算法"><a href="#读数字字符串的算法" class="headerlink" title="读数字字符串的算法"></a>读数字字符串的算法</h1><pre><code class="java"> for(int i=1;i&lt;len+1;i++){
-            if(i==len) //最后一个元素单独处理
-                sb.append(i - start).append(s.charAt(start));
-            else if(s.charAt(i) != s.charAt(start)){  //元素改变触发函数
-                sb.append(i - start).append(s.charAt(start));
-                start = i; //更新起始下标
-            }
-        }
-</code></pre>
-<h1 id="判断是否溢出"><a href="#判断是否溢出" class="headerlink" title="判断是否溢出"></a>判断是否溢出</h1><pre><code class="java">if(res&gt;Integer.MAX_VALUE||(res==Integer.MAX_VALUE&amp;&amp;p&gt;(Integer.MAX_VALUE)%10)    
-   return Integer.MAX_VALUE;
-if(res&lt;Integer.MIN_VALUE||(res==Integer.MIN_VALUE)&amp;&amp;p&gt;-(Integer.MIN_VALUE)%10)
-   return Integer.MIN_VALUE
+                <p>我是短小精悍的文章摘要(๑•̀ㅂ•́)و✧</p>
+<span id="more"></span>
 
-</code></pre>
-<h1 id="JS属性绑定"><a href="#JS属性绑定" class="headerlink" title="JS属性绑定"></a>JS属性绑定</h1><pre><code class="html">&lt;a : href="'#/user/edit?id='+user.id" &gt; xxxx&lt;a&gt;
-  
-  
-  &lt;!-- 完整语法 --&gt;
-&lt;a v-bind:href="url"&gt;&lt;/a&gt;
-&lt;!-- 缩写 --&gt;
-&lt;a :href="url"&gt;&lt;/a&gt;
-</code></pre>
-<h3 id="v-on-缩写"><a href="#v-on-缩写" class="headerlink" title="v-on 缩写"></a>v-on 缩写</h3><pre><code class="html">&lt;!-- 完整语法 --&gt;
-&lt;a v-on:click="doSomething"&gt;&lt;/a&gt;
-&lt;!-- 缩写 --&gt;
-&lt;a @click="doSomething"&gt;&lt;/a&gt;
-</code></pre>
-<h2 id="v-for"><a href="#v-for" class="headerlink" title="v-for"></a>v-for</h2><pre><code class="html">&lt;ul&gt;
-  &lt;template v-for="site in sites"&gt;
-    &lt;li&gt;{{ site.name }}&lt;/li&gt;
-    &lt;li&gt;--------------&lt;/li&gt;
-  &lt;/template&gt;
-&lt;/ul&gt;
-</code></pre>
-<h2 id=""><a href="#" class="headerlink" title=""></a></h2><h1 id="Date-赋值时间"><a href="#Date-赋值时间" class="headerlink" title="Date 赋值时间"></a>Date 赋值时间</h1><pre><code class="java">String dateString = "2018-02-23";
-        Date date= new SimpleDateFormat("yyyy-MM-dd").parse(dateString);
-</code></pre>
-<h1 id="Vue初始化文件"><a href="#Vue初始化文件" class="headerlink" title="Vue初始化文件"></a>Vue初始化文件</h1><pre><code>sudo vue init webpack ${文件名}
-</code></pre>
-<h1 id="vue-出现Elements-in-iteration-expect-to-have-‘v-bind-key’-directives问题"><a href="#vue-出现Elements-in-iteration-expect-to-have-‘v-bind-key’-directives问题" class="headerlink" title="vue 出现Elements in iteration expect to have ‘v-bind:key’ directives问题"></a>vue 出现Elements in iteration expect to have ‘v-bind:key’ directives问题</h1><ol>
-<li>v-for 后添加 :key=’item’</li>
-</ol>
-<pre><code class="html">&lt;li v-for="i in list" :key="i"&gt;
-</code></pre>
-<ol start="2">
-<li>在build处关闭eslint检测</li>
-</ol>
-<p>…(config.dev.useEslint ? [createLintingRule()] : []),</p>
-<pre><code>//...(config.dev.useEslint ? [createLintingRule()] : []),
-</code></pre>
-<h1 id="vue-v-bind"><a href="#vue-v-bind" class="headerlink" title="vue v-bind"></a>vue v-bind</h1><pre><code class="html">&lt;!-- 完整语法 --&gt;
-&lt;a v-bind:href="url"&gt;...&lt;/a&gt;
-
-&lt;!-- 缩写 --&gt;
-&lt;a :href="url"&gt;...&lt;/a&gt;
-
-&lt;!-- 动态参数的缩写 (2.6.0+) --&gt;
-&lt;a :[key]="url"&gt; ... &lt;/a&gt;
-</code></pre>
-<h1 id="vuecli用Element"><a href="#vuecli用Element" class="headerlink" title="vuecli用Element"></a>vuecli用Element</h1><pre><code>在项目目录下
-vue add element
-</code></pre>
-<h1 id="tkMapper查询"><a href="#tkMapper查询" class="headerlink" title="tkMapper查询"></a>tkMapper查询</h1><pre><code class="java">        Example example=new Example(SpUser.class);
-        Example.Criteria criteria = example.createCriteria();
-        criteria.andEqualTo("username","zxh");
-        SpUser spUser = spUserMapper.selectOneByExample(example);
-        if(spUser.getPassword().equals("zxh228.."))
-            System.out.println("登录成功");
-</code></pre>
-<h1 id="GBG配置必须这么写"><a href="#GBG配置必须这么写" class="headerlink" title="GBG配置必须这么写"></a>GBG配置必须这么写</h1><pre><code class="xml">&lt;!DOCTYPE generatorConfiguration
-        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
-        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd"&gt;
-
-&lt;generatorConfiguration&gt;
+<img src="/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/example.jpg" class="">
 
 
-    &lt;context id="Mysql" targetRuntime="MyBatis3Simple" defaultModelType="flat"&gt;
-        &lt;property name="beginningDelimiter" value="`"/&gt;
-        &lt;property name="endingDelimiter" value="`"/&gt;
-        &lt;property name="useActualColumnNames" value="true"/&gt;
 
 
-        &lt;plugin type="tk.mybatis.mapper.generator.MapperPlugin"&gt;
-            &lt;property name="mappers" value="tk.mybatis.mapper.common.Mapper"/&gt;
-            &lt;property name="caseSensitive" value="true"/&gt;
-        &lt;/plugin&gt;
-
-        &lt;jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://localhost:3306/travels"
-                        userId="root"
-                        password="zxh228.."&gt;
-            &lt;property name="serverTimezone" value="UTC"/&gt;
-
-            &lt;property name="nullCatalogMeansCurrent" value="true" /&gt;
-
-        &lt;/jdbcConnection&gt;
-
-        &lt;javaModelGenerator targetPackage="com.zxh.travels.entity"
-                            targetProject="src/main/java"/&gt;
-
-        &lt;sqlMapGenerator targetPackage="mapper"
-                         targetProject="src/main/resources"/&gt;
-
-        &lt;javaClientGenerator targetPackage="com.zxh.travels.dao"
-                             targetProject="src/main/java"
-                             type="XMLMAPPER"/&gt;
-
-        &lt;table tableName="t_user"  domainObjectName="User"&gt;
-            &lt;generatedKey column="id" sqlStatement="Mysql"/&gt;
-        &lt;/table&gt;
-        &lt;table tableName="t_province" domainObjectName="Province"&gt;
-            &lt;generatedKey column="id" sqlStatement="Mysql"/&gt;
-        &lt;/table&gt;
-        &lt;table tableName="t_place" domainObjectName="Place" &gt;
-            &lt;generatedKey column="id" sqlStatement="Mysql"/&gt;
-        &lt;/table&gt;
-    &lt;/context&gt;
-&lt;/generatorConfiguration&gt;
+<h1 id="title1-0"><a href="#title1-0" class="headerlink" title="title1.0"></a>title1.0</h1><h2 id="title1-1"><a href="#title1-1" class="headerlink" title="title1.1"></a>title1.1</h2><h1 id="title2-0"><a href="#title2-0" class="headerlink" title="title2.0"></a>title2.0</h1><h2 id="title2-1"><a href="#title2-1" class="headerlink" title="title2.1"></a>title2.1</h2><pre class=" language-java"><code class="language-java"><span class="token keyword">class</span> <span class="token class-name">Solution</span> <span class="token punctuation">{</span>
+    <span class="token keyword">public</span> <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> <span class="token function">twoSum</span><span class="token punctuation">(</span><span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> nums<span class="token punctuation">,</span> <span class="token keyword">int</span> target<span class="token punctuation">)</span> <span class="token punctuation">{</span>
+        <span class="token keyword">int</span><span class="token punctuation">[</span><span class="token punctuation">]</span> ret<span class="token operator">=</span><span class="token keyword">new</span> <span class="token class-name">int</span><span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">;</span>
+        Arrays<span class="token punctuation">.</span><span class="token function">sort</span><span class="token punctuation">(</span>nums<span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> len <span class="token operator">=</span> nums<span class="token punctuation">.</span>length<span class="token punctuation">;</span>
+        <span class="token keyword">int</span> left <span class="token operator">=</span> <span class="token number">0</span><span class="token punctuation">;</span>
+        <span class="token keyword">int</span> right <span class="token operator">=</span> len<span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+        
+        <span class="token keyword">while</span><span class="token punctuation">(</span>right<span class="token operator">></span>left<span class="token punctuation">)</span><span class="token punctuation">{</span>
+            <span class="token keyword">int</span> temp <span class="token operator">=</span> nums<span class="token punctuation">[</span>right<span class="token punctuation">]</span> <span class="token operator">+</span> nums<span class="token punctuation">[</span>left<span class="token punctuation">]</span><span class="token punctuation">;</span>
+            <span class="token keyword">if</span><span class="token punctuation">(</span>target<span class="token operator">&lt;</span>temp<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                right<span class="token operator">--</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token keyword">if</span> <span class="token punctuation">(</span> target<span class="token operator">></span> temp<span class="token punctuation">)</span><span class="token punctuation">{</span>
+                left<span class="token operator">++</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span><span class="token keyword">else</span> <span class="token punctuation">{</span>
+                ret<span class="token punctuation">[</span><span class="token number">0</span><span class="token punctuation">]</span><span class="token operator">=</span>left<span class="token punctuation">;</span>
+                ret<span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">]</span><span class="token operator">=</span>right<span class="token punctuation">;</span>
+                <span class="token keyword">break</span><span class="token punctuation">;</span>
+            <span class="token punctuation">}</span>
+        <span class="token punctuation">}</span>
+        
+        <span class="token keyword">return</span> ret<span class="token punctuation">;</span>
+        
+        
+        
 </code></pre>
-<h1 id="mybatis-文件配置（重要）"><a href="#mybatis-文件配置（重要）" class="headerlink" title="mybatis 文件配置（重要）"></a>mybatis 文件配置（重要）</h1><pre><code class="xml">mybatis:
-  mapper-locations: classpath:mapper/*.xml
-</code></pre>
-<h1 id="lang-”scss”解释"><a href="#lang-”scss”解释" class="headerlink" title="lang=”scss”解释"></a>lang=”scss”解释</h1><p><a target="_blank" rel="noopener" href="https://blog.csdn.net/zhouzuoluo/article/details/81010331">https://blog.csdn.net/zhouzuoluo/article/details/81010331</a></p>
-<h1 id="使用npm-install"><a href="#使用npm-install" class="headerlink" title="使用npm install"></a>使用npm install</h1><pre><code># 建议不要直接使用 cnpm 安装以来，会有各种诡异的 bug。可以通过如下操作解决 npm 下载速度慢的问题
-npm install --registry=https://registry.npm.taobao.org
-</code></pre>
-<h1 id="webpack-路径中的-符号表示什么"><a href="#webpack-路径中的-符号表示什么" class="headerlink" title="[webpack] 路径中的@符号表示什么"></a>[webpack] 路径中的@符号表示什么</h1><p>在看别人使用webpack打包的项目代码时，经常会看到在路径中引用@符号，如下所示：</p>
-<pre><code class="js">import  conOne from '@/views/conOne.vue'
-
-1
-</code></pre>
-<p>这其实利用了webpack的<code>resolve.alias</code>特性，<code>webpack.config.js</code>的配制代码如下，在webpack打包时，会把路径引用中的@符号，转换为相对应的路径。</p>
-<pre><code class="js">const path = require("path");
-function resolve(dir) {
-    return path.join(__dirname, '..', dir);
-}
-
-module.exports = {
-    resolve: {
-        extensions: ['*', '.js', '.vue'],
-        alias:{
-            'vue$': 'vue/dist/vue.common.js',
-            '@': resolve('src')
-        }
-    }
-}
-</code></pre>
-<h1 id="bus"><a href="#bus" class="headerlink" title="bus"></a>bus</h1><h2 id="VUE使用BUS进行兄弟组件传值"><a href="#VUE使用BUS进行兄弟组件传值" class="headerlink" title="VUE使用BUS进行兄弟组件传值"></a>VUE使用BUS进行兄弟组件传值</h2><p>Posted on 2019-10-18 22:06 <a target="_blank" rel="noopener" href="https://www.cnblogs.com/luguankun/">猫头唔食鱼</a> 阅读(1869) 评论(0) <a target="_blank" rel="noopener" href="https://i.cnblogs.com/EditPosts.aspx?postid=11701121">编辑</a> <a href="javascript:void(0)">收藏</a></p>
-<p>1.新建bus.js</p>
-<pre><code>import Vue from 'vue'
-export default  new Vue
-</code></pre>
-<p>2.在需要传值和接受值的vue文件中，各自引入bus.js</p>
-<pre><code>import bus from '../util/bus'
-</code></pre>
-<p>3.定义传值的方法，使用bus.$emit(‘methodName’,data), methodName是自定义的方法名</p>
-<pre><code>&lt;button @click="trans()"&gt;传值&lt;/button&gt;
-methods: {
-    trans(){
-      bus.$emit('test',this.helloData)
-    }
-  },
-</code></pre>
-<p>4.在要接收值的组件里，使用bus.on(‘methodName’,val =&gt;{ }) ,val 就是传过来的值</p>
-<pre><code> mounted(){
-    bus.$on('test',val=&gt;{
-      console.log(val);
-      this.cdata = val
-    })
-  }
-</code></pre>
-<p><strong>如果要传多个值</strong>：</p>
-<pre><code> bus.$emit('test',data1,data2,data3……)
-</code></pre>
-<p><strong>同样接收时候，需要接收多个值</strong></p>
-<pre><code>bus.$on(test,(val,val2,val3……)=&gt;{
-     console.log(val,val2,val3)
-})
-</code></pre>
-<p><strong>如果需要不触发事件，就把值传递给兄弟组件，那么必须通过异步的方法传递，例如axios或者setTimeout</strong></p>
-<pre><code> // 不通过点击事件，把数据传递给兄弟组件，一定要setTimeout,或者axios请求
-     setTimeout(() =&gt; {
-       bus.$emit('test',data)
-     }, 2000);
-</code></pre>
-<p>完整例子：</p>
-<p>App.vue</p>
-<p><a href="javascript:void(0);"><img src="https://common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></p>
-<pre><code>&lt;template&gt;
-  &lt;div id="app"&gt;
-     &lt;HelloWorld/&gt;
-     &lt;child&gt;&lt;/child&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
-
-&lt;script&gt;
-import HelloWorld from './components/HelloWorld'
-import Child from './components/Child'
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,Child
-  }
-}
-&lt;/script&gt;
-</code></pre>
-<p><a href="javascript:void(0);"><img src="https://common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></p>
-<p>bus.js</p>
-<pre><code>import Vue from 'vue'
-export default  new Vue
-</code></pre>
-<p>子组件HelloWorld.vue</p>
-<p><a href="javascript:void(0);"><img src="https://common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></p>
-<pre><code>&lt;template&gt;
-&lt;div&gt;
-&lt;button @click="trans()"&gt;传值&lt;/button&gt;
-&lt;/div&gt;
-&lt;/template&gt;
-&lt;script&gt;
-import bus from '../util/bus'
-export default {
-  name: "HelloWorld",
-  data () {
-    return {
-      helloData:"hello"
-    };
-  },
-  methods: {
-    trans(){
-      bus.$emit('test',this.helloData)
-    }
-  },
-}
-&lt;/script&gt;
-</code></pre>
-<p><a href="javascript:void(0);"><img src="https://common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></p>
-<p>子组件Child.vue</p>
-<p><a href="javascript:void(0);"><img src="https://common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></p>
-<pre><code>&lt;template&gt;
-&lt;div&gt;
-{{cdata}}
-&lt;/div&gt;
-&lt;/template&gt;
-&lt;script&gt;
-import bus from '../util/bus'
-export default {
-  name: "Child",
-  data () {
-    return {
-      cdata:"子数据"
-    };
-  },
-  mounted(){
-    bus.$on('test',val=&gt;{
-      console.log(val);
-      this.cdata = val
-    })
-  }
-}
-&lt;/script&gt;
-</code></pre>
-<p><a href="javascript:void(0);"><img src="https://common.cnblogs.com/images/copycode.gif" alt="复制代码"></a></p>
-<h1 id="vue生命周期截图"><a href="#vue生命周期截图" class="headerlink" title="vue生命周期截图"></a>vue生命周期截图</h1><p>![image-20210219095549873](/Users/zhangxuhui/Library/Application Support/typora-user-images/image-20210219095549873.png)</p>
-<h1 id="使用v-for"><a href="#使用v-for" class="headerlink" title="使用v-for"></a>使用v-for</h1><p>在vue中如果使用v-for，那一定要使用 :key ,且key是唯一值，而且key是唯一的。</p>
-<h1 id="v-slot"><a href="#v-slot" class="headerlink" title="v-slot"></a>v-slot</h1><ul>
-<li><p>父组件使用子组件</p>
-<pre><code class="html">// 父组件 名字叫 fa
-&lt;div&gt;
-    &lt;son&gt;
-       // 进行插入数据
-        按钮
-
-    &lt;/son&gt;
-&lt;/div&gt;
+<img src="/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/2021-04-01-22-09.jpg" class="">
 
 
-// 子组件 名字叫 son
-&lt;div&gt;
-    &lt;buttion&gt;
-        &lt;slot&gt;&lt;/slot&gt;
-    &lt;/button&gt;
-&lt;/div&gt;
-</code></pre>
-</li>
-</ul>
-<p>​        结果：</p>
-<p>![image-20210220153110528](/Users/zhangxuhui/Library/Application Support/typora-user-images/image-20210220153110528.png)</p>
-<ul>
-<li>具名</li>
-</ul>
-<pre><code>//子组件 ： (假设名为：ebutton)
-&lt;template&gt;
-  &lt;div class= 'button'&gt;
-      &lt;button&gt;  &lt;/button&gt;
-      &lt;slot name= 'one'&gt; 这就是默认值1&lt;/slot&gt;
-      &lt;slot name='two'&gt; 这就是默认值2 &lt;/slot&gt;
-      &lt;slot name='three'&gt; 这就是默认值3 &lt;/slot&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
-</code></pre>
-<p>​    </p>
-<pre><code>//父组件：（引用子组件 ebutton）
-&lt;template&gt;
-  &lt;div class= 'app'&gt;
-     &lt;ebutton&gt; 
-        &lt;template v-slot:one&gt; 这是插入到one插槽的内容 &lt;/template&gt;
-        &lt;template v-slot:two&gt; 这是插入到two插槽的内容 &lt;/template&gt;
-        &lt;template v-slot:three&gt; 这是插入到three插槽的内容 &lt;/template&gt;
-     &lt;/ebutton&gt;
-  &lt;/div&gt;
-&lt;/template&gt;
-</code></pre>
-<h1 id="Teriums密码-：Zxh228…"><a href="#Teriums密码-：Zxh228…" class="headerlink" title="Teriums密码 ：Zxh228…."></a>Teriums密码 ：Zxh228….</h1><h1 id="mac创建文件"><a href="#mac创建文件" class="headerlink" title="mac创建文件"></a>mac创建文件</h1><h1 id="创建文件"><a href="#创建文件" class="headerlink" title="创建文件"></a>创建文件</h1><p>命令:<code>touch</code><br>笔者感觉这个命令还是挺靠谱的。Mac如果不用第三方工具（sublime等）是无法可视化创建一个<code>txt</code>文件。而用这个命令即可创建。<br>示例（创建一个test为名的txt文件）：<code>touch test.txt</code></p>
-<h1 id="结果idea右键没有servlet"><a href="#结果idea右键没有servlet" class="headerlink" title="结果idea右键没有servlet"></a>结果idea右键没有servlet</h1><p>在x x x x x.iml中找到 sourceRoots中添加</p>
-<pre><code>&lt;sourceRoots&gt;
-    &lt;root url="file://$MODULE_DIR$/src" /&gt;
-    &lt;root url="file://$MODULE_DIR$/src/main/java" /&gt;
-&lt;/sourceRoots&gt;
-</code></pre>
-<h1 id="Map中好用的方法"><a href="#Map中好用的方法" class="headerlink" title="Map中好用的方法"></a>Map中好用的方法</h1><p>1.getOrDefault(key,defaultValue)</p>
-<p>2.putIfAbsent(K key, V value) 只有在不存在key值的映射，或者映射值为null时，才将value指定的值放入到map中，否则不对Map做更改</p>
-<pre><code class="java"> @Test
-    public void test3(){
-        Map&lt;Integer,String&gt; map = new HashMap&lt;&gt;();
-        map.put(1,"I");
-        map.put(2,"Love");
-        map.put(3,"you");
-        // map.put(5,"null");
-        map.putIfAbsent(1,"me");
-        map.putIfAbsent(4,"what");
 
-        map.putIfAbsent(5,"fuck");
-        map.forEach((k,v)-&gt;{
-            System.out.println(k+" : "+v);
-        });
-
-    }
-</code></pre>
-<h1 id="springboot中使用jsp"><a href="#springboot中使用jsp" class="headerlink" title="springboot中使用jsp"></a>springboot中使用jsp</h1><h1 id="springboot中的一些请求参数"><a href="#springboot中的一些请求参数" class="headerlink" title="springboot中的一些请求参数"></a>springboot中的一些请求参数</h1><pre><code class="java">@GetMapping("/car/{id}/owner/{username}")
-public Map&lt;String,Object&gt; getCar(@PathVariable("id") Integer id,
-                                 @PathVariable("username") String name,
-                                 @PathVaribale Map&lt;String, String&gt; pv,
-                                 @RequestHeader("User-Agent")   String userAgent,
-                                 @RequestHeader Map&lt;String, String&gt; header,
-                                 @RequestParam("age") Integer age,
-                                 @Requestparam Map&lt;String,String&gt; params,
-                                 @RequestParam("inters") List&lt;String&gt; inters,
-                                 @CookieValue("_ga") String _ga,
-                                 @CookieValue("_ga") Cookie cookie                        ) 
-            
-</code></pre>
-<h1 id="application-yml"><a href="#application-yml" class="headerlink" title="application.yml"></a>application.yml</h1><pre><code class="yaml">server:
-  port: 8989
-  servlet:
-    context-path: /shiro
-
-spring:
-  datasource:
-    username: root
-    password: zxh228..
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/shiro
-    type: com.alibaba.druid.pool.DruidDataSource
-  application:
-    name: shiro
-  mvc:
-    view:
-      prefix: /
-      suffix: .jsp
-mybatis:
-  mapper-locations: classpath:mapper/*.xml
-</code></pre>
-<p>pom.xml</p>
-<pre><code class="xml">&lt;dependency&gt;
-    &lt;groupId&gt;com.alibaba&lt;/groupId&gt;
-    &lt;artifactId&gt;druid&lt;/artifactId&gt;
-    &lt;version&gt;1.1.19&lt;/version&gt;
-&lt;/dependency&gt;
-</code></pre>
-<h1 id="服务器公网ip"><a href="#服务器公网ip" class="headerlink" title="服务器公网ip"></a>服务器公网ip</h1><p>8.136.187.29</p>
-<h1 id="解决json问题-map-get"><a href="#解决json问题-map-get" class="headerlink" title="解决json问题 map.get"></a>解决json问题 map.get</h1><pre><code class="java">List&lt;Specification&gt; specList = (List&lt;Specification&gt;) map.get("specList");
-//Object object = map.get("specList");
-ObjectMapper mapper = new ObjectMapper();
-List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference&lt;List&lt;Specification&gt;&gt;() { });
-</code></pre>
-<h1 id="JSON-Date的格式化"><a href="#JSON-Date的格式化" class="headerlink" title="JSON Date的格式化"></a>JSON Date的格式化</h1><pre><code class="java">@JsonFormat(timezone = "GMT+8",pattern = "yyyy-MM-dd HH:mm:ss")
-</code></pre>
-<h1 id="Springboot-json忽略返回值为null的"><a href="#Springboot-json忽略返回值为null的" class="headerlink" title="Springboot json忽略返回值为null的"></a>Springboot json忽略返回值为null的</h1><pre><code class="xml">spring:
-  jackson:
-    default-property-inclusion: non_null
-</code></pre>
-<h1 id="Springboot-获取classPath"><a href="#Springboot-获取classPath" class="headerlink" title="Springboot 获取classPath"></a>Springboot 获取classPath</h1><pre><code class="java">String filePath = ResourceUtils.getURL("classpath:").getPath()+"static/image/";
-</code></pre>
-<h1 id="zsh连接服务器"><a href="#zsh连接服务器" class="headerlink" title="zsh连接服务器"></a>zsh连接服务器</h1><p><code>ssh -p 22 root@8.136.187.29</code></p>
 
                 
             </div>
@@ -970,7 +569,7 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://amberzxh.github.io/AmberZXH.github.io/2021/01/13/bei-zhu/">https://amberzxh.github.io/AmberZXH.github.io/2021/01/13/bei-zhu/</a>
+                    <a href="https://amberzxh.github.io/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/">https://amberzxh.github.io/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -1007,7 +606,15 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/AmberZXH.github.io/tags/%E7%AE%97%E6%B3%95/">
+                                    <span class="chip bg-color">算法</span>
+                                </a>
+                            
+                                <a href="/AmberZXH.github.io/tags/leetcode/">
+                                    <span class="chip bg-color">leetcode</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -1177,65 +784,29 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/AmberZXH.github.io/2021/04/01/hello-world/">
+                <a href="/AmberZXH.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/">
                     <div class="card-image">
                         
                         
-                        <img src="/AmberZXH.github.io/medias/featureimages/12.jpg" class="responsive-img" alt="Hello World">
+                        <img src="/AmberZXH.github.io/medias/featureimages/3.jpg" class="responsive-img" alt="回溯算法_全排列">
                         
-                        <span class="card-title">Hello World</span>
+                        <span class="card-title">回溯算法_全排列</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            
-                        
-                    </div>
-                    <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2021-04-01
-                        </span>
-                        <span class="publish-author">
-                            
-                            <i class="fas fa-user fa-fw"></i>
-                            张忘川
-                            
-                        </span>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-        
-        
-        <div class="article col s12 m6" data-aos="fade-up">
-            <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
-            </div>
-            <div class="card">
-                <a href="/AmberZXH.github.io/2021/01/13/bei-zhu/">
-                    <div class="card-image">
-                        
-                        
-                        <img src="/AmberZXH.github.io/medias/featureimages/0.jpg" class="responsive-img" alt="">
-                        
-                        <span class="card-title"></span>
-                    </div>
-                </a>
-                <div class="card-content article-content">
-                    <div class="summary block-with-text">
-                        
-                            
+                            我是短小精悍的文章摘要(๑•̀ㅂ•́)و✧
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2021-01-13
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-01
                             </span>
                         <span class="publish-author">
                             
@@ -1246,6 +817,55 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
                     </div>
                 </div>
 
+                
+                <div class="card-action article-tags">
+                    
+                    <a href="/AmberZXH.github.io/tags/%E7%AE%97%E6%B3%95/">
+                        <span class="chip bg-color">算法</span>
+                    </a>
+                    
+                    <a href="/AmberZXH.github.io/tags/leetcode/">
+                        <span class="chip bg-color">leetcode</span>
+                    </a>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+        
+        <div class="article col s12 m6" data-aos="fade-up">
+            <div class="article-badge right-badge text-color">
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="card">
+                <a href="/AmberZXH.github.io/2021/04/01/my-first-blog-2/">
+                    <div class="card-image">
+                        
+                        
+                        <img src="/AmberZXH.github.io/medias/featureimages/18.jpg" class="responsive-img" alt="my first blog">
+                        
+                        <span class="card-title">my first blog</span>
+                    </div>
+                </a>
+                <div class="card-content article-content">
+                    <div class="summary block-with-text">
+                        
+                            
+                        
+                    </div>
+                    <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2021-04-01
+                            </span>
+                        <span class="publish-author">
+                            
+                            <i class="fas fa-user fa-fw"></i>
+                            张忘川
+                            
+                        </span>
+                    </div>
+                </div>
                 
             </div>
         </div>
@@ -1432,7 +1052,7 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
 <script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
 
     
-    <div class="container row center-align" style="margin-bottom: 0px !important;">
+    <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
             Copyright&nbsp;&copy;
             
@@ -1445,7 +1065,7 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">2.8k</span>&nbsp;字
+                class="white-color">145</span>&nbsp;字
             
             
             
@@ -1464,6 +1084,50 @@ List&lt;Specification&gt; list = mapper.convertValue(specList, new TypeReference
             </span>
             
             <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2021";
+                    var startMonth = "4";
+                    var startDate = "1";
+                    var startHour = "0";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
             
             <br>
             
@@ -1666,6 +1330,6 @@ $(function () {
     <script src="/AmberZXH.github.io/libs/instantpage/instantpage.js" type="module"></script>
     
 
-<script src="/AmberZXH.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/AmberZXH.github.io/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":170,"height":240},"mobile":{"show":true},"react":{"opacity":0.9}});</script></body>
+<script src="/AmberZXH.github.io/live2dw/lib/L2Dwidget.min.js?094cbace49a39548bed64abff5988b05"></script><script>L2Dwidget.init({"pluginRootPath":"live2dw/","pluginJsPath":"lib/","pluginModelPath":"assets/","tagMode":false,"log":false,"model":{"jsonPath":"/AmberZXH.github.io/live2dw/assets/shizuku.model.json"},"display":{"position":"left","width":170,"height":240},"mobile":{"show":true},"react":{"opacity":0.9}});</script><!-- hexo-inject:begin --><!-- hexo-inject:end --></body>
 
 </html>
