@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>白马过平川</title>
   
-  <subtitle>想要一只布偶</subtitle>
+  <subtitle>打工买布偶^_^</subtitle>
   <link href="https://amberzxh.github.io/atom.xml" rel="self"/>
   
   <link href="https://amberzxh.github.io/"/>
-  <updated>2021-04-01T16:13:49.086Z</updated>
+  <updated>2021-07-16T05:41:10.752Z</updated>
   <id>https://amberzxh.github.io/</id>
   
   <author>
@@ -17,42 +17,342 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexo的基本使用</title>
-    <link href="https://amberzxh.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/"/>
-    <id>https://amberzxh.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/</id>
-    <published>2021-04-01T16:02:06.000Z</published>
-    <updated>2021-04-01T16:13:49.086Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;建立文章&quot;&gt;&lt;a href=&quot;#建立文章&quot; class=&quot;headerlink&quot; title=&quot;建立文章&quot;&gt;&lt;/a&gt;建立文章&lt;/h1&gt;&lt;pre class=&quot; language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;新建文章
-hexo</summary>
-      
+    <title>my first new blog</title>
+    <link href="https://amberzxh.github.io/2021/07/16/my-first-new-blog/"/>
+    <id>https://amberzxh.github.io/2021/07/16/my-first-new-blog/</id>
+    <published>2021-07-16T05:36:06.000Z</published>
+    <updated>2021-07-16T05:41:10.752Z</updated>
     
     
     
     
-    <category term="hexo" scheme="https://amberzxh.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
-    <title>回溯算法_全排列</title>
-    <link href="https://amberzxh.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/"/>
-    <id>https://amberzxh.github.io/2021/04/01/hui-su-suan-fa-quan-pai-lie/</id>
-    <published>2021-04-01T13:10:14.000Z</published>
-    <updated>2021-04-01T14:11:14.191Z</updated>
+    <title>Lambda表达式</title>
+    <link href="https://amberzxh.github.io/2021/07/14/lambda-biao-da-shi/"/>
+    <id>https://amberzxh.github.io/2021/07/14/lambda-biao-da-shi/</id>
+    <published>2021-07-14T03:40:15.000Z</published>
+    <updated>2021-07-14T03:44:01.068Z</updated>
     
     
-    <summary type="html">&lt;p&gt;我是短小精悍的文章摘要(๑•̀ㅂ•́)و✧&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Lambda" scheme="https://amberzxh.github.io/tags/Lambda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>计组学习</title>
+    <link href="https://amberzxh.github.io/2021/06/23/ji-zu-xue-xi/"/>
+    <id>https://amberzxh.github.io/2021/06/23/ji-zu-xue-xi/</id>
+    <published>2021-06-23T07:15:17.000Z</published>
+    <updated>2021-07-15T05:25:59.376Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;计组学习&quot;&gt;&lt;a href=&quot;#计组学习&quot; class=&quot;headerlink&quot; title=&quot;计组学习&quot;&gt;&lt;/a&gt;计组学习&lt;/h2&gt;</summary>
+    
+    
+    
+    
+    <category term="zxh" scheme="https://amberzxh.github.io/tags/zxh/"/>
+    
+    <category term="计算机基础" scheme="https://amberzxh.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>堆排序（java实现</title>
+    <link href="https://amberzxh.github.io/2021/05/12/dui-pai-xu-java-shi-xian/"/>
+    <id>https://amberzxh.github.io/2021/05/12/dui-pai-xu-java-shi-xian/</id>
+    <published>2021-05-12T10:40:25.000Z</published>
+    <updated>2021-05-12T10:47:17.314Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;堆排序的应用和实现&quot;&gt;&lt;a href=&quot;#堆排序的应用和实现&quot; class=&quot;headerlink&quot; title=&quot;堆排序的应用和实现&quot;&gt;&lt;/a&gt;堆排序的应用和实现&lt;/h1&gt;</summary>
     
     
     
     
     <category term="算法" scheme="https://amberzxh.github.io/tags/%E7%AE%97%E6%B3%95/"/>
     
-    <category term="leetcode" scheme="https://amberzxh.github.io/tags/leetcode/"/>
+    <category term="数据结构" scheme="https://amberzxh.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    <category term="堆" scheme="https://amberzxh.github.io/tags/%E5%A0%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lambda表达式的用法总结</title>
+    <link href="https://amberzxh.github.io/2021/05/05/lambda-biao-da-shi-de-yong-fa-zong-jie/"/>
+    <id>https://amberzxh.github.io/2021/05/05/lambda-biao-da-shi-de-yong-fa-zong-jie/</id>
+    <published>2021-05-05T08:07:46.000Z</published>
+    <updated>2021-07-14T05:28:29.488Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Lambda表达式的使用&quot;&gt;&lt;a href=&quot;#Lambda表达式的使用&quot; class=&quot;headerlink&quot; title=&quot;Lambda表达式的使用&quot;&gt;&lt;/a&gt;Lambda表达式的使用&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="Lambda" scheme="https://amberzxh.github.io/tags/Lambda/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试复习-Java基础</title>
+    <link href="https://amberzxh.github.io/2021/05/05/mian-shi-fu-xi-java-ji-chu/"/>
+    <id>https://amberzxh.github.io/2021/05/05/mian-shi-fu-xi-java-ji-chu/</id>
+    <published>2021-05-05T05:31:13.000Z</published>
+    <updated>2021-05-06T06:47:21.633Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;Java基础&quot;&gt;&lt;a href=&quot;#Java基础&quot; class=&quot;headerlink&quot; title=&quot;Java基础&quot;&gt;&lt;/a&gt;Java基础&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="面试" scheme="https://amberzxh.github.io/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HashMap面试题</title>
+    <link href="https://amberzxh.github.io/2021/04/29/hashmap-mian-shi-ti/"/>
+    <id>https://amberzxh.github.io/2021/04/29/hashmap-mian-shi-ti/</id>
+    <published>2021-04-29T08:03:11.000Z</published>
+    <updated>2021-04-29T08:03:11.944Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>mac安装rocketMQ</title>
+    <link href="https://amberzxh.github.io/2021/04/23/mac-an-zhuang-rocketmq/"/>
+    <id>https://amberzxh.github.io/2021/04/23/mac-an-zhuang-rocketmq/</id>
+    <published>2021-04-23T12:24:18.000Z</published>
+    <updated>2021-04-25T08:52:32.891Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;安装rocketMq-4-4&quot;&gt;&lt;a href=&quot;#安装rocketMq-4-4&quot; class=&quot;headerlink&quot; title=&quot;安装rocketMq-4.4&quot;&gt;&lt;/a&gt;安装rocketMq-4.4&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="rocketMQ" scheme="https://amberzxh.github.io/tags/rocketMQ/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>java中使用SPI</title>
+    <link href="https://amberzxh.github.io/2021/04/19/java-zhong-shi-yong-spi/"/>
+    <id>https://amberzxh.github.io/2021/04/19/java-zhong-shi-yong-spi/</id>
+    <published>2021-04-19T14:21:44.000Z</published>
+    <updated>2021-04-19T14:26:46.247Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;SPI（浅谈使用）&quot;&gt;&lt;a href=&quot;#SPI（浅谈使用）&quot; class=&quot;headerlink&quot; title=&quot;SPI（浅谈使用）&quot;&gt;&lt;/a&gt;SPI（浅谈使用）&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="SPI" scheme="https://amberzxh.github.io/tags/SPI/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MapStruct的使用</title>
+    <link href="https://amberzxh.github.io/2021/04/19/mapstruct-de-shi-yong/"/>
+    <id>https://amberzxh.github.io/2021/04/19/mapstruct-de-shi-yong/</id>
+    <published>2021-04-19T14:01:58.000Z</published>
+    <updated>2021-04-19T14:10:51.312Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;超级大坑-mapStruct&quot;&gt;&lt;a href=&quot;#超级大坑-mapStruct&quot; class=&quot;headerlink&quot; title=&quot;超级大坑 mapStruct&quot;&gt;&lt;/a&gt;超级大坑 mapStruct&lt;/h1&gt;</summary>
+    
+    
+    
+    
+    <category term="中间件" scheme="https://amberzxh.github.io/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    
+    <category term="MapStruct" scheme="https://amberzxh.github.io/tags/MapStruct/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>tkMapper的基本使用</title>
+    <link href="https://amberzxh.github.io/2021/04/19/tkmapper-de-ji-ben-shi-yong/"/>
+    <id>https://amberzxh.github.io/2021/04/19/tkmapper-de-ji-ben-shi-yong/</id>
+    <published>2021-04-19T12:01:28.000Z</published>
+    <updated>2021-04-19T12:15:20.934Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;tkMapper-学习（感觉没啥吊用）&quot;&gt;&lt;a href=&quot;#tkMapper-学习（感觉没啥吊用）&quot; class=&quot;headerlink&quot; title=&quot;tkMapper 学习（感觉没啥吊用）&quot;&gt;&lt;/a&gt;tkMapper 学习（感觉没啥吊用）&lt;/h2&gt;</summary>
+    
+    
+    
+    
+    <category term="中间件" scheme="https://amberzxh.github.io/tags/%E4%B8%AD%E9%97%B4%E4%BB%B6/"/>
+    
+    <category term="tkmapper" scheme="https://amberzxh.github.io/tags/tkmapper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>typora整合PicoGo</title>
+    <link href="https://amberzxh.github.io/2021/04/19/tu-chuang-ce-shi/"/>
+    <id>https://amberzxh.github.io/2021/04/19/tu-chuang-ce-shi/</id>
+    <published>2021-04-19T03:14:05.000Z</published>
+    <updated>2021-04-19T03:18:06.464Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Typora 使用图床&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="picgo" scheme="https://amberzxh.github.io/tags/picgo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Zookeeper</title>
+    <link href="https://amberzxh.github.io/2021/04/19/zookeeper/"/>
+    <id>https://amberzxh.github.io/2021/04/19/zookeeper/</id>
+    <published>2021-04-19T01:49:24.000Z</published>
+    <updated>2021-04-19T02:14:16.822Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;认真整理的zookeeper，&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="zookeeper" scheme="https://amberzxh.github.io/tags/zookeeper/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>dubbo运行demo</title>
+    <link href="https://amberzxh.github.io/2021/04/16/dubbo-yun-xing-demo/"/>
+    <id>https://amberzxh.github.io/2021/04/16/dubbo-yun-xing-demo/</id>
+    <published>2021-04-16T13:21:23.000Z</published>
+    <updated>2021-04-19T02:14:21.374Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;写一个dubbo的小demo&quot;&gt;&lt;a href=&quot;#写一个dubbo的小demo&quot; class=&quot;headerlink&quot; title=&quot;写一个dubbo的小demo&quot;&gt;&lt;/a&gt;写一个dubbo的小demo&lt;/h2&gt;</summary>
+    
+    
+    
+    
+    <category term="dubbo" scheme="https://amberzxh.github.io/tags/dubbo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Nginx的使用</title>
+    <link href="https://amberzxh.github.io/2021/04/16/nginx-de-shi-yong/"/>
+    <id>https://amberzxh.github.io/2021/04/16/nginx-de-shi-yong/</id>
+    <published>2021-04-16T02:10:14.000Z</published>
+    <updated>2021-04-16T13:49:11.944Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;在linux中使用nginx&lt;/p&gt;</summary>
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>spring_springboot配置</title>
+    <link href="https://amberzxh.github.io/2021/04/06/spring-springboot-pei-zhi/"/>
+    <id>https://amberzxh.github.io/2021/04/06/spring-springboot-pei-zhi/</id>
+    <published>2021-04-06T12:04:30.000Z</published>
+    <updated>2021-04-19T14:04:32.445Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;张忘川专用配置！&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="spring" scheme="https://amberzxh.github.io/tags/spring/"/>
+    
+    <category term="springboot" scheme="https://amberzxh.github.io/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring_springboot_异常优雅处理and统一返回值</title>
+    <link href="https://amberzxh.github.io/2021/04/06/spring-springboot-yi-chang-you-ya-chu-li-and-tong-yi-fan-hui-zhi/"/>
+    <id>https://amberzxh.github.io/2021/04/06/spring-springboot-yi-chang-you-ya-chu-li-and-tong-yi-fan-hui-zhi/</id>
+    <published>2021-04-06T11:46:53.000Z</published>
+    <updated>2021-04-06T11:51:46.098Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;统一返回值和异常处理&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="springboot" scheme="https://amberzxh.github.io/tags/springboot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac使用redis</title>
+    <link href="https://amberzxh.github.io/2021/04/06/mac-shi-yong-redis/"/>
+    <id>https://amberzxh.github.io/2021/04/06/mac-shi-yong-redis/</id>
+    <published>2021-04-06T06:24:41.000Z</published>
+    <updated>2021-07-16T05:41:10.719Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;redis的基本用法，结合homebrew&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="redis" scheme="https://amberzxh.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Spring_springMvc详解</title>
+    <link href="https://amberzxh.github.io/2021/04/05/spring-springmvc-xiang-jie/"/>
+    <id>https://amberzxh.github.io/2021/04/05/spring-springmvc-xiang-jie/</id>
+    <published>2021-04-05T12:33:26.000Z</published>
+    <updated>2021-04-16T13:49:54.124Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;springMvc的学习总结待完善哦&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="spring" scheme="https://amberzxh.github.io/tags/spring/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>shiro整合springboot</title>
+    <link href="https://amberzxh.github.io/2021/04/04/shiro-zheng-he-springboot/"/>
+    <id>https://amberzxh.github.io/2021/04/04/shiro-zheng-he-springboot/</id>
+    <published>2021-04-04T09:34:57.000Z</published>
+    <updated>2021-04-16T13:49:23.142Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;Shiro的基本使用，整合springboot&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="shiro" scheme="https://amberzxh.github.io/tags/shiro/"/>
     
   </entry>
   
