@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>白马过平川</title>
+  <title>到处皆诗境，随时有物华</title>
   
-  <subtitle>我是废物^_^</subtitle>
+  <subtitle>其实我算法还不错</subtitle>
   <link href="https://amberzxh.github.io/atom.xml" rel="self"/>
   
   <link href="https://amberzxh.github.io/"/>
-  <updated>2021-07-16T05:41:10.752Z</updated>
+  <updated>2021-07-19T16:41:46.526Z</updated>
   <id>https://amberzxh.github.io/</id>
   
   <author>
@@ -17,42 +17,14 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>my first new blog</title>
-    <link href="https://amberzxh.github.io/2021/07/16/my-first-new-blog/"/>
-    <id>https://amberzxh.github.io/2021/07/16/my-first-new-blog/</id>
-    <published>2021-07-16T05:36:06.000Z</published>
-    <updated>2021-07-16T05:41:10.752Z</updated>
-    
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Lambda表达式</title>
-    <link href="https://amberzxh.github.io/2021/07/14/lambda-biao-da-shi/"/>
-    <id>https://amberzxh.github.io/2021/07/14/lambda-biao-da-shi/</id>
-    <published>2021-07-14T03:40:15.000Z</published>
-    <updated>2021-07-16T05:41:10.719Z</updated>
-    
-    
-    
-    
-    
-    <category term="Lambda" scheme="https://amberzxh.github.io/tags/Lambda/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>计组学习</title>
+    <title>计组组成原理</title>
     <link href="https://amberzxh.github.io/2021/06/23/ji-zu-xue-xi/"/>
     <id>https://amberzxh.github.io/2021/06/23/ji-zu-xue-xi/</id>
     <published>2021-06-23T07:15:17.000Z</published>
-    <updated>2021-07-16T05:41:10.771Z</updated>
+    <updated>2021-07-19T16:41:46.526Z</updated>
     
     
-    <summary type="html">&lt;h2 id=&quot;计组学习&quot;&gt;&lt;a href=&quot;#计组学习&quot; class=&quot;headerlink&quot; title=&quot;计组学习&quot;&gt;&lt;/a&gt;计组学习&lt;/h2&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;计组组成原理&quot;&gt;&lt;a href=&quot;#计组组成原理&quot; class=&quot;headerlink&quot; title=&quot;计组组成原理&quot;&gt;&lt;/a&gt;计组组成原理&lt;/h2&gt;</summary>
     
     
     
@@ -89,7 +61,7 @@
     <link href="https://amberzxh.github.io/2021/05/05/lambda-biao-da-shi-de-yong-fa-zong-jie/"/>
     <id>https://amberzxh.github.io/2021/05/05/lambda-biao-da-shi-de-yong-fa-zong-jie/</id>
     <published>2021-05-05T08:07:46.000Z</published>
-    <updated>2021-07-16T05:41:10.719Z</updated>
+    <updated>2021-07-19T15:37:48.112Z</updated>
     
     
     <summary type="html">&lt;h1 id=&quot;Lambda表达式的使用&quot;&gt;&lt;a href=&quot;#Lambda表达式的使用&quot; class=&quot;headerlink&quot; title=&quot;Lambda表达式的使用&quot;&gt;&lt;/a&gt;Lambda表达式的使用&lt;/h1&gt;</summary>
@@ -353,6 +325,44 @@
     
     
     <category term="shiro" scheme="https://amberzxh.github.io/tags/shiro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>回溯_全排列</title>
+    <link href="https://amberzxh.github.io/2021/04/02/hui-su-quan-pai-lie/"/>
+    <id>https://amberzxh.github.io/2021/04/02/hui-su-quan-pai-lie/</id>
+    <published>2021-04-02T13:56:11.000Z</published>
+    <updated>2021-07-16T05:41:10.762Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;超级可爱的回溯算法&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="回溯算法" scheme="https://amberzxh.github.io/tags/%E5%9B%9E%E6%BA%AF%E7%AE%97%E6%B3%95/"/>
+    
+    <category term="leetcode" scheme="https://amberzxh.github.io/tags/leetcode/"/>
+    
+    <category term="算法" scheme="https://amberzxh.github.io/tags/%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo的基本使用</title>
+    <link href="https://amberzxh.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/"/>
+    <id>https://amberzxh.github.io/2021/04/02/hexo-de-ji-ben-shi-yong/</id>
+    <published>2021-04-01T16:02:06.000Z</published>
+    <updated>2021-07-16T05:41:10.750Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;hexo的基本使用，和遇到的大坑&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="hexo" scheme="https://amberzxh.github.io/tags/hexo/"/>
     
   </entry>
   
